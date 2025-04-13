@@ -192,5 +192,6 @@ combined_df2024 = combined_df[combined_df["INSPDATE_YEAR"] == 2024]
 
 # Writing to Export
 #Path management
+#Exported on 4/12/25
 output_path = "/Users/pdeguz01/Documents/git/IDS705_TeamPandas/Output/healthinspections_2024.csv"
 combined_df2024.to_csv(output_path, index=False)
