@@ -65,6 +65,16 @@ When conducting these analyses, many members of our team used the included `.git
 3. The notebook `01-Data Processing Scripts/b-merging_censusSVIUSDA.ipynb` contains the remainder of the dataset processing and merging code. This script creates a 1/2 mile buffer around each restaurant, and identifies the Census tracts that intersect with this buffer. Then, we download a list of variables from the 2023 5-Year American Community Survey dataset using the `censusdis` package. These variables are: `"MEDIAN_HOUSEHOLD_INCOME_VARIABLE", "AVG_HOUSEHOLD_SIZE", "TOTAL_POPULATION", "MEDIAN GROSS RENT"`. Grouping by restaurant and inspection date, we calculate the average value of each of these Census variables for each intersecting Census tract. Then we merge these back in to the restaurants dataset. Next, we merged in the Social Vulnerability Index data at the Census tract level. Finally, we merged in the USDA Food Access Research Atlas data at the Census tract level.
 4. As mentioned above, this final merged dataset is too large to be pushed to GitHub, so we saved it to Duke Box. 
 
+# Replicating the Experiments
+
+To replicate the base model and experiments, please follow these steps.
+
+- **Base Model:** Load the merged dataset from Box, and load it into the `02-BaseModel/models.ipynb` notebook.
+- **Experiment #1: Model Ensembles:** Load the merged dataset from Box, and load it into the `03-Experiment_ModelEnsembles/ensemble.ipynb` notebook. 
+- **Experiment #2: Evaluating Model Sensitivity to Class Imbalance:** Load the merged dataset from Box, and load it into the `06-Experiment_ModelExplainability/models.ipynb` notebook. 
+- **Experiment #3: Evaluating Bias** Load the merged dataset from Box, and load it into the  `05-Experiment_EvaluatingBias/experimental_model_social_vul_test_evalbias.ipynb` notebook. 
+- **Experiment #4: Model Explainability**: Load the merged dataset from Box, and load it into the `06-Experiment_ModelExplainability/models.ipynb` notebook. 
+
 Link to raw datasets and helpful resources:
 - Los Angeles County, California restaurant health inspections https://data.lacounty.gov/datasets/lacounty::environmental-health-restaurant-and-market-inspections-04-01-2022-to-03-31-2025/about
 - Louisville, Kentucky metro area restaurant health inspections https://catalog.data.gov/dataset/louisville-metro-ky-restaurant-inspection-scores
