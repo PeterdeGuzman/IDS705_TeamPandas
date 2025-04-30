@@ -14,7 +14,7 @@ Please reach out to the team members if you have any additional questions!
 
 # Folder Structure:
 ```
-├── 00-Data **Raw data and geocoded datasets**
+├── 00-Data #Raw data and geocoded datasets
 │   ├── Geocoded_Data
 │   │   └── healthinspections_2024_geocoded.csv
 │   ├── Inspections_Data
@@ -23,18 +23,18 @@ Please reach out to the team members if you have any additional questions!
 │   │   └── Louisville_Metro_KY_-_Restaurant_Inspection_Scores.csv
 │   └── Merged_Data
 │       └── healthinspectionsCATXKY_2024.csv
-├── 01-Data Processing Scripts **Scripts to clean and enrich restaurant health inspections data**
+├── 01-Data Processing Scripts #Scripts to clean and enrich restaurant health inspections data
 │   ├── a-merging_restauranthealthinspections.ipynb
 │   ├── b-merging_censusSVIUSDA.ipynb
 │   ├── c-mapping.ipynb
 │   └── restaurantdata_exploration.pdf
 ├── 02-BaseModel **Notebook with base model used to address main research question** 
 │   └── model_social_vulnerability.ipynb
-├── 03-Experiment_ModelEnsembles **Notebook used for the Model Ensembles Experiment**
+├── 03-Experiment_ModelEnsembles #Notebook used for the Model Ensembles Experiment
 │   └── ensemble.ipynb
-├── 04-Experiment_EvaluatingBias **Notebook used for the Evaluating Bias Experiment** 
+├── 04-Experiment_EvaluatingBias #Notebook used for the Evaluating Bias Experiment
 │   └── experimental_model_social_vul_test_evalbias.ipynb
-├── 05-AdditionalModelExploration **These are notebooks we used during data exploration and model testing**
+├── 05-AdditionalModelExploration #These are notebooks we used during data exploration and model testing
 │   ├── jw_Naive Bayes Classification.ipynb
 │   ├── jw_merge_CAhealthvio.ipynb
 │   ├── jw_model_social_vul_test.ipynb
@@ -43,7 +43,7 @@ Please reach out to the team members if you have any additional questions!
 │   ├── model_svi_census_USDAfoodaccess.ipynb
 │   ├── model_violationdata.ipynb
 │   └── models.ipynb
-├── Archive **These are deprecated scripts**
+├── Archive #These are deprecated scripts
 │   ├── censusdatapull.ipynb
 │   ├── datacleaning.py
 │   ├── merge_rawdata.ipynb
