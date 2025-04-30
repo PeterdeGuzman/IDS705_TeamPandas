@@ -8,7 +8,9 @@ Team Members:
 - Jenny Wu
 
 # Repository Description
-This repository contains the code and select raw data that our team used to analyze the impact of neighborhood context on predicting restaurant health inspection scores. This README document contains a description of the repository's structure and contents. Please reach out to the team members if you have any additional questions! 
+This repository contains the code and select raw data that our team used to analyze the impact of neighborhood context on predicting restaurant health inspection scores. This README document contains a description of the repository's structure and contents. All dependencies for the data preprocessing, merging, analysis and reporting are listed in the `requirements.txt` file. 
+
+Please reach out to the team members if you have any additional questions! 
 
 # Folder Structure:
 
