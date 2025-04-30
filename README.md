@@ -13,7 +13,44 @@ This repository contains the code and select raw data that our team used to anal
 Please reach out to the team members if you have any additional questions! 
 
 # Folder Structure:
-
+├── 00-Data **Raw data and geocoded datasets**
+│   ├── Geocoded_Data
+│   │   └── healthinspections_2024_geocoded.csv
+│   ├── Inspections_Data
+│   │   ├── Austin_Food_Establishment_Inspection_Scores_20250411.csv
+│   │   ├── LACounty_Environmental_Health_Restaurant_and_Market_Inspections.csv
+│   │   └── Louisville_Metro_KY_-_Restaurant_Inspection_Scores.csv
+│   └── Merged_Data
+│       └── healthinspectionsCATXKY_2024.csv
+├── 01-Data Processing Scripts **Scripts to clean and enrich restaurant health inspections data**
+│   ├── a-merging_restauranthealthinspections.ipynb
+│   ├── b-merging_censusSVIUSDA.ipynb
+│   ├── c-mapping.ipynb
+│   └── restaurantdata_exploration.pdf
+├── 02-BaseModel **Notebook with base model used to address main research question** 
+│   └── model_social_vulnerability.ipynb
+├── 03-Experiment_ModelEnsembles **Notebook used for the Model Ensembles Experiment**
+│   └── ensemble.ipynb
+├── 04-Experiment_EvaluatingBias **Notebook used for the Evaluating Bias Experiment** 
+│   └── experimental_model_social_vul_test_evalbias.ipynb
+├── 05-AdditionalModelExploration **These are notebooks we used during data exploration and model testing**
+│   ├── jw_Naive Bayes Classification.ipynb
+│   ├── jw_merge_CAhealthvio.ipynb
+│   ├── jw_model_social_vul_test.ipynb
+│   ├── jw_model_social_vul_test_score.ipynb
+│   ├── model_naivebayes_ownerinfo.ipynb
+│   ├── model_svi_census_USDAfoodaccess.ipynb
+│   ├── model_violationdata.ipynb
+│   └── models.ipynb
+├── Archive **These are deprecated scripts**
+│   ├── censusdatapull.ipynb
+│   ├── datacleaning.py
+│   ├── merge_rawdata.ipynb
+│   └── svi.ipynb
+├── Figures 
+│   └── restaurant_map_mainland_only.png
+├── README.md
+└── requirements.txt
 
 # PLEASE NOTE - Accessing the dataset
 When conducting these analyses, many members of our team used the included `.gitignore` functionality, as intermediate merged files and notebooks were too large to be pushed to GitHub. In addition, our final merged and enriched dataset was too large to store on GitHub. It can instead be accessed through Duke Box. We have created a folder and invited Professor Bradbury to this folder to access the dataset. As a result, the hardcoded paths that are used to load in the merged dataset in our notebooks cannot run without being changed to path to this dataset. 
