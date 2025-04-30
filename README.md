@@ -13,9 +13,10 @@ This repository contains the code and select raw data that our team used to anal
 Please reach out to the team members if you have any additional questions! 
 
 # Folder Structure:
+
 ```
-├── 00-Data #Raw data and geocoded datasets
-│   ├── Geocoded_Data
+├── 00-Data
+│   ├── Geocoded_Data #Raw data and geocoded datasets
 │   │   └── healthinspections_2024_geocoded.csv
 │   ├── Inspections_Data
 │   │   ├── Austin_Food_Establishment_Inspection_Scores_20250411.csv
@@ -28,29 +29,30 @@ Please reach out to the team members if you have any additional questions!
 │   ├── b-merging_censusSVIUSDA.ipynb
 │   ├── c-mapping.ipynb
 │   └── restaurantdata_exploration.pdf
-├── 02-BaseModel **Notebook with base model used to address main research question** 
-│   └── model_social_vulnerability.ipynb
+├── 02-BaseModel #Notebook with base model used to address main research question
+│   └── models.ipynb
 ├── 03-Experiment_ModelEnsembles #Notebook used for the Model Ensembles Experiment
 │   └── ensemble.ipynb
-├── 04-Experiment_EvaluatingBias #Notebook used for the Evaluating Bias Experiment
+├── 04-Experiment_EvaluatingBias
 │   └── experimental_model_social_vul_test_evalbias.ipynb
-├── 05-AdditionalModelExploration #These are notebooks we used during data exploration and model testing
+├── 05-Experiment_ModelExplainability # Notebook used for the Model Sensitivity and Model Explainability Experiments
+│   └── models.ipynb
+├── 06-AdditionalModelExploration #These are notebooks we used during data exploration and model testing
 │   ├── jw_Naive Bayes Classification.ipynb
 │   ├── jw_merge_CAhealthvio.ipynb
 │   ├── jw_model_social_vul_test.ipynb
 │   ├── jw_model_social_vul_test_score.ipynb
 │   ├── model_naivebayes_ownerinfo.ipynb
+│   ├── model_social_vulnerability.ipynb
 │   ├── model_svi_census_USDAfoodaccess.ipynb
-│   ├── model_violationdata.ipynb
-│   └── models.ipynb
+│   └── model_violationdata.ipynb
 ├── Archive #These are deprecated scripts
 │   ├── censusdatapull.ipynb
 │   ├── datacleaning.py
 │   ├── merge_rawdata.ipynb
 │   └── svi.ipynb
-├── Figures 
+├── Figures
 │   └── restaurant_map_mainland_only.png
-├── README.md
 └── requirements.txt
 ```
 
