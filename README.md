@@ -17,7 +17,7 @@ Please reach out to the team members if you have any additional questions!
 
 # PLEASE NOTE - Accessing the dataset
 When conducting these analyses, many members of our team used the included `.gitignore` functionality, as intermediate merged files and notebooks were too large to be pushed to GitHub. In addition, our final merged and enriched dataset was too large to store on GitHub. It can instead be accessed through Duke Box. We have created a folder and invited Professor Bradbury to this folder to access the dataset. As a result, the hardcoded paths that are used to load in the merged dataset in our notebooks cannot run without being changed to path to this dataset. 
-
+- Link to dataset https://duke.box.com/s/77n6pt1ehwze3vd5aexsprj979s01dpw
 
 # Reproducing the dataset
 
