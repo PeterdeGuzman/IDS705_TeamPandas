@@ -13,6 +13,7 @@ This repository contains the code and select raw data that our team used to anal
 Please reach out to the team members if you have any additional questions! 
 
 # Folder Structure:
+```
 ├── 00-Data **Raw data and geocoded datasets**
 │   ├── Geocoded_Data
 │   │   └── healthinspections_2024_geocoded.csv
@@ -51,6 +52,7 @@ Please reach out to the team members if you have any additional questions!
 │   └── restaurant_map_mainland_only.png
 ├── README.md
 └── requirements.txt
+```
 
 # PLEASE NOTE - Accessing the dataset
 When conducting these analyses, many members of our team used the included `.gitignore` functionality, as intermediate merged files and notebooks were too large to be pushed to GitHub. In addition, our final merged and enriched dataset was too large to store on GitHub. It can instead be accessed through Duke Box. We have created a folder and invited Professor Bradbury to this folder to access the dataset. As a result, the hardcoded paths that are used to load in the merged dataset in our notebooks cannot run without being changed to path to this dataset. 
