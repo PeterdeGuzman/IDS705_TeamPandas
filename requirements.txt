@@ -11,6 +11,7 @@ shapely
 matplotlib
 contextily
 seaborn
+shap
 #packages - ML modelling
 sklearn
 xgboost
