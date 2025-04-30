@@ -1,0 +1,17 @@
+#packages - data manipulation
+pandas
+numpy
+re
+collections
+#packages - geospatial
+geopandas
+censusdis
+shapely
+#packages - data visualization
+matplotlib
+contextily
+seaborn
+#packages - ML modelling
+sklearn
+xgboost
+scipy
